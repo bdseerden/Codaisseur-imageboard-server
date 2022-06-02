@@ -13,3 +13,6 @@ npx sequelize-cli seed:generate --name some-todoItems
 SKELETON MIGRATION
 
 npx sequelize-cli migration:generate --name first-migration
+
+npx sequelize-cli model:generate --name image --attributes tile:string,url:string
+npx sequelize-cli model:generate --name user --attributes email:string,password:string,fullName:string
